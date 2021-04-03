@@ -1,5 +1,6 @@
 #Este codigo es para hacer la prueba con Selenium el manipular un ventana de mensaje
-import time
+
+
 
 from selenium import webdriver
 
