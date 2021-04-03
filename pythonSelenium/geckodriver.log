@@ -1,0 +1,45 @@
+1616636669913	geckodriver	INFO	Listening on 127.0.0.1:27870
+1616636673000	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALUCAR~1.ALU\\AppData\\Local\\Temp\\rust_mozprofilehJxgL1"
+1616636808759	geckodriver	INFO	Listening on 127.0.0.1:27891
+1616636812786	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALUCAR~1.ALU\\AppData\\Local\\Temp\\rust_mozprofile6tflwy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1616636914428	Marionette	INFO	Listening on port 27900
+[Parent 9440, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1616636964831	Marionette	INFO	Stopped listening on port 27900
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616642513550	geckodriver	INFO	Listening on 127.0.0.1:28182
+1616642518230	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALUCAR~1.ALU\\AppData\\Local\\Temp\\rust_mozprofileK8vFlK"
+[GFX1-]: Killing GPU process due to IPC reply timeout
+[GFX1-]: Fallback (SW-)WR to Basic
+[GFX1-]: Failed to create remote compositor
+[Parent 13140, Main Thread] WARNING: base::KillProcess refusing to terminate process handle 0: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:402
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616642552428	Marionette	INFO	Listening on port 28191
+1616642553048	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616642604030	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+GeckoDriver.prototype.minimizeWindow@chrome://marionette/content/driver.js:2541:11
+1616642613860	Marionette	INFO	Stopped listening on port 28191
+1616642633204	geckodriver	INFO	Listening on 127.0.0.1:28326
+1616642636485	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ALUCAR~1.ALU\\AppData\\Local\\Temp\\rust_mozprofileuRey8B"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616642660956	Marionette	INFO	Listening on port 28334
+1616642660990	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616642683152	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+GeckoDriver.prototype.minimizeWindow@chrome://marionette/content/driver.js:2541:11
+1616642690590	Marionette	INFO	Stopped listening on port 28334
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 10812, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
